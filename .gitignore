@@ -1,12 +1,17 @@
-# Arquivos do IntelliJ
+# IntelliJ e IDEs
 .idea/
 *.iml
 out/
 gen/
+.classpath
+.project
+.settings/
 
-# Arquivos compilados do Java
+# Compilados e Logs
 *.class
+*.log
+bin/
 
-# Arquivos do Sistema
+# Sistema
 .DS_Store
 Thumbs.db
