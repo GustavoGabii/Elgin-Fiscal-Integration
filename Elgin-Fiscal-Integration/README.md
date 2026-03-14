@@ -1,7 +1,7 @@
 # Elgin Fiscal Integration (Java)
 
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Finalizado-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-%20Finalizado-green?style=for-the-badge)
 ![Maintained](https://img.shields.io/badge/Mantido-Sim-blue?style=for-the-badge)
 
 > Projeto desenvolvido em Java para comunicação e automação de impressoras **Elgin i9**, focado em emissão de cupons e comandos via protocolo **ESC/POS**.
