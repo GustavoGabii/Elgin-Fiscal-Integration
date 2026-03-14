@@ -1,4 +1,4 @@
-# 🖨️ Elgin Fiscal Integration (Java)
+# Elgin Fiscal Integration (Java)
 
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge)
