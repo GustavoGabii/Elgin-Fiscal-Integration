@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge)
 ![Maintained](https://img.shields.io/badge/Mantido-Sim-blue?style=for-the-badge)
 
-> Projeto desenvolvido em Java para comunicação e automação de impressoras térmicas **Elgin i9**, focado em emissão de cupons e comandos via protocolo **ESC/POS**.
+> Projeto desenvolvido em Java para comunicação e automação de impressoras **Elgin i9**, focado em emissão de cupons e comandos via protocolo **ESC/POS**.
 
 ---
 
