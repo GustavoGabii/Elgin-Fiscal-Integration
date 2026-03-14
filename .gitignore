@@ -1,17 +1,1 @@
-# IntelliJ e IDEs
-.idea/
-*.iml
-out/
-gen/
-.classpath
-.project
-.settings/
 
-# Compilados e Logs
-*.class
-*.log
-bin/
-
-# Sistema
-.DS_Store
-Thumbs.db
