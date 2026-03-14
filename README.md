@@ -1,81 +1,46 @@
-# Integração Java com Impressora Elgin i9
-### *Turma ADS B*
----
+# 🖨️ Elgin Fiscal Integration (Java)
 
-## Sobre o Projeto
+![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/Mantido-Sim-blue?style=for-the-badge)
 
-Este projeto foi desenvolvido por alunos com o objetivo de criar uma aplicação Java capaz de se comunicar com a impressora **Elgin i9**, utilizando comandos **ESC/POS**, testes de impressão e interação via porta de comunicação.  
-O trabalho faz parte da disciplina de **Programação Orientada a Objetos**.
-
----
-
-## Tecnologias Utilizadas
-
-- **Java 17**
-- **IntelliJ IDEA**
-- **Biblioteca ESC/POS**
-- **Driver/SDK da Elgin i9**
-- *(Opcional)* Maven ou Gradle
+> Projeto desenvolvido em Java para comunicação e automação de impressoras térmicas **Elgin i9**, focado em emissão de cupons e comandos via protocolo **ESC/POS**.
 
 ---
 
-## Estrutura do Projeto
+## 📌 Sobre o Projeto
 
-/src → Código-fonte principal
-/lib → Bibliotecas e dependências externas
-/docs → Materiais adicionais e documentação
-/examples → Testes e arquivos de demonstração
+Este repositório contém a implementação de uma ponte de comunicação entre sistemas Java e o hardware da Elgin. O projeto foi estruturado para facilitar o envio de comandos de texto, formatação e acionamento de periféricos (como guilhotina e gaveta).
 
+Este trabalho faz parte da disciplina de **Programação Orientada a Objetos (Turma ADS B)**.
 
 ---
 
-## Instalação e Execução
+## 🚀 Funcionalidades Implementadas
 
-### 1. Baixar o Projeto do GitHub
-1. Acesse o repositório.
-2. Clique no botão **Code**.
-3. Selecione **Download ZIP**.
-4. Aguarde o download.
-
-### 2. Extrair o Arquivo ZIP
-1. Vá até o local onde o arquivo foi salvo.
-2. Clique com o botão direito → **Extrair aqui** / **Extract All**.
-3. Será criada uma nova pasta com os arquivos.
-
-### 3. Importar no IntelliJ IDEA
-1. Abra o **IntelliJ IDEA**.
-2. Clique em **Open**.
-3. Escolha a pasta extraída.
-4. Aguarde o carregamento.
-5. Caso apareça, clique em **Import Project** (Maven/Gradle).
-6. Verifique o SDK em:
-   - *File → Project Structure → Project SDK → Java 17*
-7. Abra o arquivo `Main.java` e clique em ▶️ **Run**.
+| Funcionalidade | Descrição | Status |
+| :--- | :--- | :---: |
+| **Conexão Direta** | Identificação e abertura de portas (USB/Serial). | ✅ |
+| **Impressão Simples** | Envio de strings para o buffer da impressora. | ✅ |
+| **Comandos ESC/POS** | Negrito, sublinhado e alinhamento de texto. | ✅ |
+| **Corte de Papel** | Acionamento automático da guilhotina. | ✅ |
+| **QR Code** | Geração e impressão de códigos para cupons fiscais. | ⏳ |
 
 ---
 
-## Testes
+## 🛠️ Tecnologias e Ferramentas
 
-- Teste de conexão com a impressora
-- Impressão de texto simples
-- Envio de comandos **ESC/POS**
-- Verificação das portas de comunicação
-- Teste com várias mensagens
-
----
-
-## Documentação Adicional
-
-- Manual da Impressora **Elgin i9**
-- Documentação do **SDK Elgin**
-- Referência **ESC/POS**
+* **Linguagem:** Java 17
+* **IDE:** IntelliJ IDEA
+* **Protocolo:** ESC/POS (Epson Standard Code for Point of Sale)
+* **Hardware Alvo:** Elgin i9 / i7
 
 ---
 
-## Autores  
-*(em ordem alfabética)*
+## 📂 Estrutura de Pastas
 
-- Cleiton Dias
-- Guilherme Matias
-- Gustavo Gabriel
-- Kauã Geovany
+```text
+├── /src           # Código-fonte (.java)
+├── /lib           # Drivers e SDKs da Elgin (DLLs/JARs)
+├── /docs          # Manuais de referência ESC/POS da Elgin
+└── /examples      # Demonstrações de layouts de cupom
